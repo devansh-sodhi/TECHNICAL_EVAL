@@ -1,0 +1,108 @@
+[
+  {
+    "call_id": "T-1041",
+    "agent_name": "Sara",
+    "flags": [
+      {
+        "statement_text": "the withdrawal was initiated on the 12th. It looks like it's been flagged for a manual compliance review, which can take up to 7 business days.",
+        "speaker": "Sara",
+        "risk_type": "regulatory",
+        "severity": "medium",
+        "explanation": "The mention of a manual compliance review indicates potential delays in processing withdrawals, which could lead to regulatory scrutiny if not handled within stipulated timeframes.",
+        "call_id": "T-1041"
+      },
+      {
+        "statement_text": "I can't guarantee same-day processing, but escalating will ensure it's reviewed as a priority \u2014 typically within 24 hours.",
+        "speaker": "Sara",
+        "risk_type": "financial_commitment",
+        "severity": "medium",
+        "explanation": "By stating that escalation typically leads to a review within 24 hours, there is a risk of creating an implied financial commitment that may not be fulfilled, potentially leading to customer dissatisfaction.",
+        "call_id": "T-1041"
+      },
+      {
+        "statement_text": "You'll get an email confirmation of the escalation within the hour.",
+        "speaker": "Sara",
+        "risk_type": "conduct",
+        "severity": "low",
+        "explanation": "While promising an email confirmation is standard practice, failure to deliver on this could lead to reputational damage and customer trust issues.",
+        "call_id": "T-1041"
+      }
+    ]
+  },
+  {
+    "call_id": "T-1042",
+    "agent_name": "Marcus",
+    "flags": [
+      {
+        "statement_text": "It looks like there were some unusual login patterns.",
+        "speaker": "Marcus",
+        "risk_type": "regulatory",
+        "severity": "medium",
+        "explanation": "The mention of unusual login patterns could indicate a potential breach of customer data security or privacy regulations, depending on how this information is handled and communicated.",
+        "call_id": "T-1042"
+      },
+      {
+        "statement_text": "I can't override the fraud team. That's just how it works.",
+        "speaker": "Marcus",
+        "risk_type": "conduct",
+        "severity": "medium",
+        "explanation": "Marcus's response may reflect a lack of empathy and customer service skills, which could lead to reputational damage for the company.",
+        "call_id": "T-1042"
+      },
+      {
+        "statement_text": "You'd have to wait for them to review it which could be weeks.",
+        "speaker": "Marcus",
+        "risk_type": "reputational",
+        "severity": "high",
+        "explanation": "Informing the customer that the review process could take weeks without offering any alternatives or escalation options may lead to dissatisfaction and harm the company's reputation.",
+        "call_id": "T-1042"
+      },
+      {
+        "statement_text": "That's your right. Is there anything else?",
+        "speaker": "Marcus",
+        "risk_type": "conduct",
+        "severity": "medium",
+        "explanation": "This response may come off as dismissive and unhelpful, potentially exacerbating the customer's frustration and leading to negative perceptions of the company's customer service.",
+        "call_id": "T-1042"
+      }
+    ]
+  },
+  {
+    "call_id": "T-1043",
+    "agent_name": "Linda",
+    "flags": [
+      {
+        "statement_text": "the maximum leverage for major forex pairs is 1:30 for retail clients. If you're a professional client, that can go up to 1:500.",
+        "speaker": "Linda",
+        "risk_type": "regulatory",
+        "severity": "high",
+        "explanation": "The statement regarding leverage limits must comply with FCA regulations. Providing incorrect leverage information could lead to regulatory penalties.",
+        "call_id": "T-1043"
+      },
+      {
+        "statement_text": "You'd need to meet at least two of three criteria: trading in significant size, a financial portfolio over \u20ac500,000, or relevant professional experience in financial services.",
+        "speaker": "Linda",
+        "risk_type": "regulatory",
+        "severity": "medium",
+        "explanation": "The criteria for becoming a professional client must be clearly defined and compliant with FCA regulations. Misleading information could result in regulatory scrutiny.",
+        "call_id": "T-1043"
+      },
+      {
+        "statement_text": "There's no minimum deposit for a standard account, though some trading platforms have their own minimums.",
+        "speaker": "Linda",
+        "risk_type": "financial_commitment",
+        "severity": "medium",
+        "explanation": "While stating there is no minimum deposit, the mention of other platforms having minimums could confuse customers about their financial commitments.",
+        "call_id": "T-1043"
+      },
+      {
+        "statement_text": "Deriv Bot requires a $5 minimum for example.",
+        "speaker": "Linda",
+        "risk_type": "financial_commitment",
+        "severity": "medium",
+        "explanation": "Mentioning specific minimums for products could lead to misunderstandings about costs and commitments, impacting customer trust.",
+        "call_id": "T-1043"
+      }
+    ]
+  }
+]

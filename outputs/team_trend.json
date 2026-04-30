@@ -1,0 +1,71 @@
+{
+  "historical_baseline": {
+    "D1": 8,
+    "D2": 7,
+    "D3": 7,
+    "D4": 6,
+    "D5": 7,
+    "D6": 7,
+    "D7": 8
+  },
+  "current_averages": {
+    "D1": 10.0,
+    "D2": 9.33,
+    "D3": 9.0,
+    "D4": 10.0,
+    "D5": 8.67,
+    "D6": 8.0,
+    "D7": 9.0
+  },
+  "trends": [
+    {
+      "dimension_id": "D1",
+      "baseline_score": 8,
+      "current_average": 10.0,
+      "delta": 2.0,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D2",
+      "baseline_score": 7,
+      "current_average": 9.33,
+      "delta": 2.33,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D3",
+      "baseline_score": 7,
+      "current_average": 9.0,
+      "delta": 2.0,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D4",
+      "baseline_score": 6,
+      "current_average": 10.0,
+      "delta": 4.0,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D5",
+      "baseline_score": 7,
+      "current_average": 8.67,
+      "delta": 1.67,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D6",
+      "baseline_score": 7,
+      "current_average": 8.0,
+      "delta": 1.0,
+      "direction": "up"
+    },
+    {
+      "dimension_id": "D7",
+      "baseline_score": 8,
+      "current_average": 9.0,
+      "delta": 1.0,
+      "direction": "up"
+    }
+  ]
+}

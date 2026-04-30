@@ -1,0 +1,44 @@
+{
+  "inconsistencies": [
+    {
+      "dimension_id": "D2",
+      "call_ids": [
+        "T-1042",
+        "T-1043"
+      ],
+      "observed_difference": "Scores: 8 (Marcus) vs 10 (Linda)",
+      "why_it_may_be_inconsistent": "Marcus acknowledged the customer's issue but did not fully address the customer's frustration regarding account suspension, while Linda demonstrated a clear understanding of the customer's inquiry about leverage limits.",
+      "recommended_adjustment": "Consider adjusting Marcus's score to reflect a more comprehensive understanding of the customer's issue, potentially increasing it to 9."
+    },
+    {
+      "dimension_id": "D5",
+      "call_ids": [
+        "T-1042",
+        "T-1043"
+      ],
+      "observed_difference": "Scores: 6 (Marcus) vs 10 (Linda)",
+      "why_it_may_be_inconsistent": "Marcus's response was perceived as dismissive, while Linda maintained a friendly and empathetic tone throughout her call.",
+      "recommended_adjustment": "Re-evaluate Marcus's score to better reflect the importance of empathy in customer interactions, potentially increasing it to 7 or 8."
+    },
+    {
+      "dimension_id": "D6",
+      "call_ids": [
+        "T-1042",
+        "T-1043"
+      ],
+      "observed_difference": "Scores: 5 (Marcus) vs 10 (Linda)",
+      "why_it_may_be_inconsistent": "Marcus failed to provide clear next steps, while Linda provided clear and actionable next steps for the customer.",
+      "recommended_adjustment": "Consider adjusting Marcus's score to reflect a more accurate assessment of his performance in providing next steps, potentially increasing it to 7."
+    },
+    {
+      "dimension_id": "D7",
+      "call_ids": [
+        "T-1042",
+        "T-1043"
+      ],
+      "observed_difference": "Scores: 7 (Marcus) vs 10 (Linda)",
+      "why_it_may_be_inconsistent": "Marcus's call closure was acceptable but not customer-focused, while Linda's closure was polite and professional.",
+      "recommended_adjustment": "Reassess Marcus's score to better align with the expectations for call closure, potentially increasing it to 8."
+    }
+  ]
+}
